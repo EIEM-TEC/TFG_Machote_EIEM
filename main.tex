@@ -1,0 +1,39 @@
+\documentclass[notitlepage,oneside]{book}
+%Configuración
+\input{00_configuracion/00_configuracion}
+\begin{document}
+%Páginas preliminares
+\pagenumbering{roman}
+\input{01_preliminares/01_portada}
+\input{01_preliminares/03_resumen}
+\input{01_preliminares/04_abstract}
+\input{01_preliminares/05_agradecimiento}
+\input{01_preliminares/06_dedicatoria}
+\input{01_preliminares/07_indices}
+\input{01_preliminares/08_nomenclatura}
+%Páginas principales
+\input{02_principales/01_introduccion}
+\input{02_principales/02_marco_teorico}
+\input{02_principales/03_cap3}
+\input{02_principales/04_cap4}
+\input{02_principales/05_cap5}
+\input{02_principales/06_conclusiones}
+%Anexos
+\input{03_anexos/00_configuracion}
+
+\begin{equation}
+    \text{Costo normalizado} = a + \frac{(c-A)\cdot(b-a)}{(B-A)}
+\end{equation}
+
+
+
+\input{03_anexos/01_anexoA}
+\input{03_anexos/02_anexoB}
+%Apéndices
+\input{04_apendices/00_configuracion}
+\input{01_preliminares/02_hoja_de_datos}
+%Bibliografía 
+\bibliographystyle{IEEEtran}
+\bibliography{Ref}
+
+\end{document}
